@@ -2,22 +2,16 @@
 padding: 0;
 font-family: sans-serif;
 }
-.main{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(to right, #757474, #363636);
-}
+
 
 #circle{
     width: 1000px;
     height: 1000px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
+    background: #ff0000(56, 69, 131);
   }
 
   body, html {
@@ -26,67 +20,49 @@ font-family: sans-serif;
   }
 
   body {
+    height: 2000px;
+    width: 2000px;
     background-color: #242F3F;
   }
+  
 
-  .loader {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 4px solid #Fff;
-    top: 50%;
-    animation: loader 2s infinite ease;
-  }
+#text1{
+color: #fff;
+top: 450px;
+left: 350px;
+position: relative;
+}
 
-  .loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
-  }
+#text2{
+color: #fff;
+top: 150px;
+left: 350px;
+position: relative;
+}
 
-  @keyframes loader {
-    0% {
-      transform: rotate(0deg);
-    }
+#text3{
+  color: #fff;
+  left: 50px;
+  bottom: 450px;
+  position: relative;
+}
 
-    25% {
-      transform: rotate(180deg);
-    }
+#text4{
+  color: #fff;
+  right: 350px;
+  bottom: 150px;
+  position: relative;
+}
 
-    50% {
-      transform: rotate(180deg);
-    }
+#nav-link{
+  top: 100px;
+  bottom: 100px;
+  position: relative;
+}
 
-    75% {
-      transform: rotate(360deg);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  @keyframes loader-inner {
-    0% {
-      height: 0%;
-    }
-
-    25% {
-      height: 0%;
-    }
-
-    50% {
-      height: 100%;
-    }
-
-    75% {
-      height: 100%;
-    }
-
-    100% {
-      height: 0%;
-    }
-  }
+#logo{
+  top: 170px;
+  left: 1250px;
+  position: relative;
+}
+/* loader removed, may need to add back later on */
