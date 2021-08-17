@@ -21,40 +21,39 @@ font-family: sans-serif;
   }
 
   body {
-    height: 2000px;
-    width: 2000px;
+    height: 5000px;
+    width: 1800px;
     background-color: #ffffff;
+    display: flex;
   }
   
  /*  text is here */
 
 #text1{
 color: rgb(0, 0, 0);
-top: 450px;
+display: flex;
+top: 1550px;
 left: 350px;
+bottom: 250px;
 position: relative;
 }
 
 #text2{
+  display: flex;
 color: rgb(0, 0, 0);
 top: 150px;
 left: 350px;
-position: relative;
+position: static;
 }
 
 #text3{
+  display: flex;
   color: rgb(0, 0, 0);
   left: 50px;
   bottom: 450px;
-  position: relative;
+  position: static;
 }
 
-#text4{
-  color: rgb(41, 70, 126);
-  right: 350px;
-  bottom: 150px;
-  position: relative;
-}
 
 /* all images are here */
 
@@ -77,10 +76,10 @@ position: relative;
 
 #opentext{
   font-size: 50px;
-  position: relative;
+  position: absolute;
     color: rgb(0, 0, 0);
     right: 100px;
-    left: -400px;
-    bottom: 1000px;
-    top: -400px;
+    left: 100px;
+    bottom: 100px;
+    top: 325px;
 }
