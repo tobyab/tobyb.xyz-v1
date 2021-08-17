@@ -21,42 +21,46 @@ font-family: sans-serif;
   }
 
   body {
-    height: 10000px;
+    height: 2500px;
     width: 1800px;
     background-color: #ffffff;
     display: flex;
   }
   
- /*  text is here */
+ /*  questions here, answers near the bottom (98-110) */
 
 #text1{
   font-size: 75px;
 color: rgb(0, 0, 0);
-top: 900px;
+top: 400px;
 left: 1px;
-bottom: 250px;
+bottom: 350px;
 position: relative;
 display: flex;
 }
 
 #text2{
+  font-size: 75px;
   display: flex;
 color: rgb(0, 0, 0);
-top: 150px;
-left: 350px;
-position: static;
+top: 600px;
+bottom: 650px;
+left: 1px;
+position: relative;
 }
 
 #text3{
+  font-size: 75px;
   display: flex;
   color: rgb(0, 0, 0);
-  left: 50px;
-  bottom: 450px;
-  position: static;
+  left: 1px;
+  bottom: 650px;
+  top: 800px;
+  position: relative;
 }
 
 
-/* all images are here */
+/* images are here */
 
 #nav-link{
   top: 100px;
@@ -73,6 +77,8 @@ position: static;
   left: 100px;
   top: 100px;
 }
+
+/* top text here */
 
 #opentext{
   font-size: 50px;
