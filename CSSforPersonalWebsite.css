@@ -36,6 +36,7 @@ top: 400px;
 left: 500px;
 bottom: 350px;
 position: relative;
+display: flex;
 }
 
 #text2{
@@ -43,17 +44,19 @@ position: relative;
 color: rgb(0, 0, 0);
 top: 600px;
 bottom: 650px;
-left: 1px;
+left: 375px;
 position: relative;
+display: flex;
 }
 
 #text3{
   font-size: 75px;
   color: rgb(0, 0, 0);
-  left: 1px;
+  left: 150px;
   bottom: 650px;
   top: 800px;
   position: relative;
+  display: flex;
 }
 
 
@@ -102,25 +105,39 @@ position: relative;
   font-size: 50px;
   color: rgb(0, 0, 0);
   top: -430px;
-  left: 1px;
+  left: 400px;
   bottom: 650px;
   position: relative;
+  display: flex;
 }
 
 #text2ans{
+  font-size: 50px;
   position: relative;
   color: #000000;
-  top: 600px;
-  bottom: 650px;
-  left: 1px;
+  top: 400px;
+  bottom: 550px;
+  left: 375px;
+  display: flex;
 }
 
 #text3ans{
-  position: relative;
-  color: #000000;
-  left: 1px;
+  color: rgb(0, 0, 0);
+  top: 600px;
   bottom: 650px;
-  top: 800px;
+  left: 375px;
+  position: relative;
+  display: flex;
 }
 
 /* all gif / images next to answers here */
+
+#scrollarrow{
+  max-width: 100%;
+  position: absolute;
+  margin: 0;
+  right: 100px;
+  bottom: 100px;
+  left: 75px;
+  top: 550px;
+}
