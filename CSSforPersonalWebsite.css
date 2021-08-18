@@ -173,3 +173,14 @@ position: absolute;
   left: 100px;
   top: 2750px;
 }
+
+#endtext{
+  bottom: 100px;
+  top: 2670px;
+  left: 100px;
+  right: 100px;
+  position: absolute;
+  color: rgba(56,49,68,.6);
+  font-size: 15px;
+  font-weight: 175px;
+}
