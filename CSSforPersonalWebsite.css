@@ -35,8 +35,8 @@ color: rgb(0, 0, 0);
 top: 400px;
 left: 500px;
 bottom: 350px;
-position: relative;
-display: flex;
+right: 100px;
+position: absolute;
 }
 
 #text2{
@@ -45,8 +45,8 @@ color: rgb(0, 0, 0);
 top: 600px;
 bottom: 650px;
 left: 375px;
-position: relative;
-display: flex;
+right: 100px;
+position: absolute;
 }
 
 #text3{
@@ -55,8 +55,8 @@ display: flex;
   left: 150px;
   bottom: 650px;
   top: 800px;
-  position: relative;
-  display: flex;
+  right: 100px;
+  position: absolute;
 }
 
 
@@ -103,22 +103,22 @@ display: flex;
 
 #text1ans{
   font-size: 50px;
+  position: absolute;
   color: rgb(0, 0, 0);
   top: -430px;
   left: 400px;
   bottom: 650px;
-  position: relative;
-  display: flex;
+  right: 100px;
 }
 
 #text2ans{
   font-size: 50px;
-  position: relative;
+  position: absolute;
   color: #000000;
   top: 400px;
   bottom: 550px;
   left: 375px;
-  display: flex;
+  right: 100px;
 }
 
 #text3ans{
@@ -126,8 +126,8 @@ display: flex;
   top: 600px;
   bottom: 650px;
   left: 375px;
-  position: relative;
-  display: flex;
+  right: 100px;
+  position: absolute;
 }
 
 /* all gif / images next to answers here */
