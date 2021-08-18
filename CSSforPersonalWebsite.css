@@ -21,7 +21,7 @@ font-family: sans-serif;
   }
 
   body {
-    height: 2700px;
+    height: 3000px;
     width: 1800px;
     background-color: #ffffff;
     display: flex;
@@ -32,8 +32,8 @@ font-family: sans-serif;
 #text1{
   font-size: 75px;
 color: rgb(0, 0, 0);
-top: 400px;
-left: 500px;
+top: 800px;
+left: 200px;
 bottom: 350px;
 right: 100px;
 position: absolute;
@@ -42,9 +42,9 @@ position: absolute;
 #text2{
   font-size: 75px;
 color: rgb(0, 0, 0);
-top: 600px;
+top: 1400px;
 bottom: 650px;
-left: 375px;
+left: 200px;
 right: 100px;
 position: absolute;
 }
@@ -53,9 +53,9 @@ position: absolute;
   font-size: 75px;
   color: rgb(0, 0, 0);
   left: 150px;
-  bottom: 650px;
-  top: 800px;
-  right: 100px;
+  bottom: 1200px;
+  top: 2000px;
+  right: 75px;
   position: absolute;
 }
 
@@ -85,7 +85,7 @@ position: absolute;
   position: absolute;
     color: rgb(0, 0, 0);
     right: 100px;
-    left: 100px;
+    left: 125px;
     bottom: 100px;
     top: 325px;
 }
@@ -105,8 +105,8 @@ position: absolute;
   font-size: 50px;
   position: absolute;
   color: rgb(0, 0, 0);
-  top: -430px;
-  left: 400px;
+  top: 1100px;
+  left: 200px;
   bottom: 650px;
   right: 100px;
 }
@@ -115,22 +115,22 @@ position: absolute;
   font-size: 50px;
   position: absolute;
   color: #000000;
-  top: 400px;
+  top: 2300px;
   bottom: 550px;
-  left: 375px;
+  left: 200px;
   right: 100px;
 }
 
 #text3ans{
+  font-size: 50px;
   color: rgb(0, 0, 0);
-  top: 600px;
+  top: 1700px;
   bottom: 650px;
-  left: 375px;
+  left: 250px;
   right: 100px;
   position: absolute;
 }
 
-/* all gif / images next to answers here */
 
 #scrollarrow{
   max-width: 100%;
@@ -140,4 +140,20 @@ position: absolute;
   bottom: 100px;
   left: 75px;
   top: 550px;
+}
+
+#github {
+  top: 1000px;
+  bottom: 100px;
+  left: 400px;
+  right: 100px;
+  position: absolute;
+}
+
+#email {
+  top: 1000px;
+  bottom: 100px;
+  left: 400px;
+  right: 100px;
+  position: absolute;
 }
