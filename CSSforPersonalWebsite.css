@@ -143,17 +143,33 @@ position: absolute;
 }
 
 #github {
-  top: 1000px;
-  bottom: 100px;
-  left: 400px;
-  right: 100px;
+  display: inline;
+  max-width: 100%;
   position: absolute;
+  margin: 0;
+  right: 100px;
+  bottom: 100px;
+  left: 100px;
+  top: 2750px;
 }
 
-#email {
-  top: 1000px;
-  bottom: 100px;
-  left: 400px;
-  right: 100px;
+#mail {
+  display: inline;
+  max-width: 100%;
   position: absolute;
+  margin: 0;
+  right: 100px;
+  bottom: 100px;
+  left: 100px;
+  top: 2750px;
+}
+
+#yt{
+  max-width: 100%;
+  position: absolute;
+  margin: 0;
+  right: 100px;
+  bottom: 100px;
+  left: 100px;
+  top: 2750px;
 }
