@@ -30,7 +30,7 @@ font-family: sans-serif;
  /*  questions here, answers here (98-110) */
 
 #text1{
-  font-size: 75px;
+  font-size: 70px;
 color: rgb(0, 0, 0);
 top: 800px;
 left: 150px;
@@ -40,7 +40,7 @@ position: absolute;
 }
 
 #text2{
-  font-size: 75px;
+  font-size: 65px;
 color: rgb(0, 0, 0);
 top: 1400px;
 bottom: 650px;
@@ -50,7 +50,7 @@ position: absolute;
 }
 
 #text3{
-  font-size: 75px;
+  font-size: 60px;
   color: rgb(0, 0, 0);
   left: 150px;
   bottom: 1200px;
