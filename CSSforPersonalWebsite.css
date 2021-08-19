@@ -44,7 +44,7 @@ position: absolute;
 color: rgb(0, 0, 0);
 top: 1400px;
 bottom: 650px;
-left: 200px;
+left: 150px;
 right: 100px;
 position: absolute;
 }
@@ -92,11 +92,11 @@ position: absolute;
 
 #topName{
   font-size: 10px;
-  position: absolute;
+  position: fixed;
   color: #5e5c5c;
-  top: -75px;
-  left: -50px;
-  bottom: 100px;
+  top: 15px;
+  left: 25px;
+  bottom: 1000px;
 }
 
 /* answers here */
@@ -117,7 +117,7 @@ position: absolute;
   color: #000000;
   top: 2300px;
   bottom: 550px;
-  left: 200px;
+  left: 175px;
   right: 100px;
 }
 
@@ -126,7 +126,7 @@ position: absolute;
   color: rgb(0, 0, 0);
   top: 1700px;
   bottom: 650px;
-  left: 250px;
+  left: 225px;
   right: 100px;
   position: absolute;
 }
