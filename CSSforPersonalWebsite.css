@@ -27,7 +27,7 @@ font-family: sans-serif;
     display: flex;
   }
   
- /*  questions here, answers near the bottom (98-110) */
+ /*  questions here, answers here (98-110) */
 
 #text1{
   font-size: 75px;
@@ -60,7 +60,7 @@ position: absolute;
 }
 
 
-/* images are here */
+/* images here */
 
 #nav-link{
   top: 100px;
@@ -131,6 +131,7 @@ position: absolute;
   position: absolute;
 }
 
+/* scroll down gif here */
 
 #scrollarrow{
   max-width: 100%;
@@ -142,9 +143,12 @@ position: absolute;
   top: 550px;
 }
 
+/* bottom icons and text here */
+
 #github {
-  display: inline;
   max-width: 100%;
+  height: auto;
+  display: inline;
   position: absolute;
   margin: 0;
   right: 100px;
@@ -165,7 +169,7 @@ position: absolute;
 }
 
 #yt{
-  max-width: 100%;
+  max-width: 50%;
   position: absolute;
   margin: 0;
   right: 100px;
