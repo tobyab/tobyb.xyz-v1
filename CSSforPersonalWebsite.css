@@ -5,8 +5,8 @@ font-family: sans-serif;
 }
 
 #circle{
-  width: 1000px;
-  height: 1000px;
+  width: 0px;
+  height: 0px;
   position: relative;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@ font-family: sans-serif;
   }
 
   body {
-    height: 2800px;
+    height: 2500px;
     width: 1800px;
     background-color: #ffffff;
     display: flex;
@@ -147,9 +147,6 @@ position: absolute;
 /* bottom icons and text here */
 
 #github {
-  max-width: 100%;
-  height: auto;
-  display: inline;
   position: absolute;
   margin: 0;
   right: 100px;
@@ -159,8 +156,6 @@ position: absolute;
 }
 
 #mail {
-  display: inline;
-  max-width: 100%;
   position: absolute;
   margin: 0;
   right: 100px;
@@ -170,7 +165,6 @@ position: absolute;
 }
 
 #yt{
-  max-width: 50%;
   position: absolute;
   margin: 0;
   right: 100px;
