@@ -1,5 +1,7 @@
 # portfolio01
-Hello there, this is a portfolio!
+Hello there, this is my personal website!
+
+It is just the front end
 
 This has been completely programmed by me.
 
