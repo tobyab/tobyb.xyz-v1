@@ -1,4 +1,4 @@
-# portfolio01
+# Personal-Website
 Hello there, this is my personal website!
 
 It is just the front end, but should hopefully help you!
