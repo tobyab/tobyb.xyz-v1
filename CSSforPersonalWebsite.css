@@ -94,7 +94,9 @@ position: absolute;
 #topName{
   font-size: 10px;
   position: fixed;
-  color: #5e5c5c;
+  color: rgba(30, 29, 31, 0.74);
+  background-color: transparent;
+  text-decoration: none;
   top: 15px;
   left: 25px;
   bottom: 1000px;
@@ -170,7 +172,7 @@ position: absolute;
   right: 100px;
   bottom: 100px;
   left: 100px;
-  top: 2750px;
+  top: 2700px;
 }
 
 #endtext{
