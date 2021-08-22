@@ -1,14 +1,13 @@
-# Personal-Website
 
 <h1>
   Hello! Welcome to my personal website :)
   </h1>
 
-Hello there, this is my personal website!
+Hello there, this is the front end code of my personal website!
 
 It is just the front end, but should hopefully help you build yours!
 
-visit is here at https://tobyb.xyz :)
+visit is here at https://tobyb.xyz
 
 This website has been completely programmed by me.
 
