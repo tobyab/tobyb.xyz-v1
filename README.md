@@ -1,9 +1,9 @@
 # Personal-Website
 Hello there, this is my personal website!
 
-It is just the front end, but should hopefully help you!
+It is just the front end, but should hopefully help you build yours!
 
-visit is here at tobyb.xyz :)
+visit is here at https://tobyb.xyz :)
 
 This has been completely programmed by me.
 
