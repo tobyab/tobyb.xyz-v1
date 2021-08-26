@@ -9,6 +9,8 @@ It is just the front end, but should hopefully help you build yours!
 
 The main branch is protected, so to make changes you do have to submit a PR
 
+Changes are being made in a private repository! That repostitory does have to stay private because of the access it has to my website. It may potentially go public, but all changes I make to it that I seem suitable to add to this repo will be added! 😀
+
 visit is here at https://tobyb.xyz
 
 This website has been completely programmed by me.
