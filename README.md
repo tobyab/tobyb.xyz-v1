@@ -7,6 +7,8 @@ Hello there, this is the front end code of my personal website!
 
 It is just the front end, but should hopefully help you build yours!
 
+The main branch is protected, so to make changes you do have to submit a PR
+
 visit is here at https://tobyb.xyz
 
 This website has been completely programmed by me.
