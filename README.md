@@ -1,6 +1,6 @@
 
 <h1>
-  Hello! Welcome to my personal website :)
+  Hello! Welcome to my personal website
   </h1>
 
 Hello there, this is the front end code of my personal website!
