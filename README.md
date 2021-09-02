@@ -13,7 +13,7 @@ Changes are being made in a private repository! That repostitory does have to st
 
 Also! I will try to keep you all as updated as possible in the MD file, please check back here for updates! 
 
-visit is here at https://tobyb.xyz
+visit is <a href="https://tobyb.xyz">here!</a> :)
 
 This website has been completely programmed by me.
 
