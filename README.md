@@ -9,7 +9,7 @@ It is just the front end, but should hopefully help you build yours!
 
 The main branch is protected, so to make changes you do have to submit a PR
 
-* IMPORTANT! If you use this code as a template for your own work (which is totally fine by the way) please mention this repo, and also make sure to send it to me.  I would love to see some other people's work! If you have any concernes about this or anything else to do with this repo, please <a href="mailto:toby@tobyb.xyz">email me</a> :)
+****IMPORTANT! If you use this code as a template for your own work (which is totally fine by the way) please mention this repo, and also make sure to send it to me.  I would love to see some other people's work! If you have any concernes about this or anything else to do with this repo, please <a href="mailto:toby@tobyb.xyz">email me</a> :)****
 
 Changes are being made in a private repository! That repostitory does have to stay private because of the access it has to my website. It may potentially go public, but all changes I make to it that I seem suitable to add to this repo will be added! 😀 
 
