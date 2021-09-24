@@ -3,9 +3,9 @@
   Hello! Welcome to my personal website
   </h1>
 
-Hello there, this is the front end code of my personal website!
+Hello there, this is the code of my personal website!
 
-It is just the front end, but should hopefully help you build yours!
+It was built with html and css and I hope it help you build yours!
 
 The main branch is protected, so to make changes you do have to submit a PR. Please keep in mind, all changes made to this repo DO NOT get uploaded to the main site. I will have to do a full review of them, then the code will be added to the private repo.
 
