@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+}
+
+.Rethome{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgba(15, 13, 19, 0.6) !important;
+}
+
+.title{
+    position: absolute;
+    top: -5%;
+    left: 8%;
+    font-size: 18vh;
+}
+
+.subtitle{
+    position: absolute;
+    top: 26%;
+    left: 8%;
+    font-size: 3vh;
+    color: #6e6e6e;
+}
+
+.projectbox0{
+    position: absolute;
+    height: 45vh;
+    width: 60vh;
+    border-radius: 8px;
+    background: #d6d6d68a;
+    top: 45%;
+    left: 10%;
+}
+
+.homeadvisordesc{
+    position: absolute;
+    font-size: 3vh;
+    top: 76%;
+    left: 11%;
+    color: black !important;
+}
+
+.homeadvisorhref{
+    color: black !important;
+    text-decoration: none;
+}
+
+.homeadvisor{
+    position: absolute;
+    height: 30vh;
+    width: 60vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    top: 45%;
+    left: 10%;
+}
+
+.projectbox1{
+    position: absolute;
+    height: 45vh;
+    width: 60vh;
+    border-radius: 8px;
+    background: #d6d6d68a;
+    top: 45%;
+    left: 60%;
+}
+
+.skapakitt{
+    position: absolute;
+    height: 30vh;
+    width: 60vh;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    top: 45%;
+    left: 60%;
+}
+
+.skapadesc{
+    z-index: 2;
+    position: absolute;
+    font-size: 3vh;
+    top: 76%;
+    left: 61%;
+    color: black
+}
+
+.skapahref{
+    z-index: 2;
+    color: black !important;
+    text-decoration: none;
+}
+
+
+a:link{
+    color: #6e6e6e
+  }
+  
+  a:visited{
+    color: #6e6e6e
+  }
+  
+  a:hover{
+    color: #6e6e6e;
+    background-color: #979797;
+  }
+  
+  a:active{
+    color: #6e6e6e;
+  }
