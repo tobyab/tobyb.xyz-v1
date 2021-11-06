@@ -1,19 +1,20 @@
 *{
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
   body, html {
+    scroll-behavior: smooth;
     height: 100%;
     text-align: center;
   }
 
+
   body {
-    height: 2515px;
-    width: 1024px;
     background-color: #ffffff;
     display: flex;
+    text-align: center;
   }
-  
 
 
 .text1{
@@ -25,6 +26,37 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 600px) {
+  .text1{
+    font-size: 7vh;
+    top: 85%;
+    left: 20%;
+  }
+}
+
+.navbar{
+  height: 7vh;
+  width: 100vh;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  position: fixed;
+  left: 25%;
+  z-index: 10
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    height: 7vh;
+    width: 40vh;
+    position: fixed;
+    left: 12%;
+    z-index: 10
+  }
+}
+
 .text2{
   color: #000000;
   z-index: 9;
@@ -34,22 +66,48 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 600px) {
+  .text2{
+    font-size: 6vh;
+    top: 140%;
+    left: 22%;
+  }
+}
+
 .text3{
   color: #000000;
   z-index: 9;
   font-size: 7vw;
-  left: 29.5%;
-  top: 205%;
+  left: 17%;
+  top: 202%;
   position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .text3{
+    font-size: 6vh;
+    top: 195%;
+    left: 4%;
+  }
 }
 
 .memoji{
   z-index: 9;
   position: absolute;
   left: 41%;
-  top: 10%;
-  height: 45vh;
+  top: 13%;
+  height: 40vh;
   width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .memoji{
+    position: absolute;
+    left: 27%;
+    top: 12%;
+    height: 30vh;
+    width: auto;
+  }
 }
 
 .opentext{
@@ -61,15 +119,33 @@
   top: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+  .opentext{
+    font-size: 5vh;
+    position: absolute;
+    left: 24%;
+    top: 45%;
+  }
+}
+
 .topName{
-  color: rgba(15, 13, 19, 0.6) !important;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 3vh;
   position: fixed;
-  top: 2%;
-  left: 25px;
-  bottom: 1000px;
+  top: 2.5%;
+  left: 46.5%;
+  z-index: 11;
+}
+
+@media only screen and (max-width: 600px) {
+  .topName{
+    font-size: 3vh;
+    position: fixed;
+    top: 2.5%;
+    left: 40%;
+  }
 }
 
 .text1ans{
@@ -81,6 +157,16 @@
   left: 22%;
 }
 
+@media only screen and (max-width: 600px) {
+  .text1ans{
+    z-index: 9;
+    font-size: 4vh;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 102%;
+    left: 5%;
+  }
+}
 
 .text2ans{
   z-index: 9;
@@ -91,35 +177,112 @@
   right: 5%
 }
 
+@media only screen and (max-width: 600px) {
+  .text2ans{
+    z-index: 9;
+    font-size: 4vh;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 160%;
+    left: 7%;
+  }
+}
   
 .text3ans{
   z-index: 9;
-  font-size: 3vw;
+  font-size: 4vh;
   color: rgb(0, 0, 0);
-  top: 232%;
-  right: 23%;
+  top: 230%;
+  left: 32%;
   position: absolute;
+  text-align: left !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .text3ans{
+    font-size: 4vh;
+    position: absolute;
+    top: 215%;
+    left: 35%;
+  }
+}
+
+.text3ans1{
+  z-index: 9;
+  font-size: 4vh;
+  color: rgb(0, 0, 0);
+  top: 230%;
+  left: 47%;
+  position: absolute;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .text3ans1{
+    font-size: 4vh;
+    position: absolute;
+    top: 244%;
+    left: 35%;
+  }
+}
+
+.text3ans2{
+  z-index: 9;
+  font-size: 4vh;
+  color: rgb(0, 0, 0);
+  top: 230%;
+  left: 62%;
+  position: absolute;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .text3ans2{
+    font-size: 4vh;
+    position: absolute;
+    top: 273%;
+    left: 35%;
+  }
+}
 
 .scrollarrow{
-  max-width: 100%;
   position: absolute;
   top: 70%;
-  left: 41%;
+  left: 40.5%;
   height: 30vh;
   width: auto;
+  z-index: 0
 }
 
+@media only screen and (max-width: 600px) {
+  .scrollarrow{
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    height: 20vh;
+    width: auto;
+  }
+}
 
 .github {
   display: inline;
   z-index: 9;
   position: absolute;
   margin: 0;
-  top: 269%;
+  top: 267%;
   left: 48.75%;
   background-color: transparent !important
+}
+
+@media only screen and (max-width: 600px) {
+  .github{
+    margin: 0;
+    top: 310%;
+    height: 3vh;
+    width: auto;
+    left: 29%;
+    background-color: transparent !important
+  }
 }
 
 .mail {
@@ -127,9 +290,20 @@
   z-index: 9;
   position: absolute;
   margin: 0;
-  top: 269%;
+  top: 267%;
   left: 46%;
   background-color: transparent !important
+}
+
+@media only screen and (max-width: 600px) {
+  .mail{
+    margin: 0;
+    top: 310%;
+    height: 3vh;
+    width: auto;
+    left: 41%;
+    background-color: transparent !important
+  }
 }
 
 .twitter{
@@ -137,50 +311,124 @@
   z-index: 9;
   position: absolute;
   margin: 0;
-  top: 269%;
+  top: 267%;
+  height: 3vh;
+  width: auto;
   left: 51.5%;
   background-color: transparent !important
 }
 
+@media only screen and (max-width: 600px) {
+  .twitter{
+    margin: 0;
+    top: 310%;
+    height: 3vh;
+    width: auto;
+    left: 53%;
+    background-color: transparent !important
+  }
+}
+
 .endtext{
   display: inline;
-  z-index: 9;
-  top: 273%;
+  z-index: 1;
+  top: 271%;
   right: 40%;
   position: absolute;
   color: rgba(56,49,68,.6);
-  font-size: 15px;
-  font-weight: 175px;
+  font-size: 1.5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .endtext{
+    display: inline;
+    z-index: 1;
+    top: 315%;
+    left: 35%;
+    position: absolute;
+    color: rgba(56,49,68,.6);
+    font-size: 2vh;
+  }
 }
 
 .sendBlog{
   display: inline-block;
-  position: absolute;
-  top: 3%;
-  right: 2%;
+  position: fixed;
+  top: 2.7%;
+  left: 26%;
   text-decoration: none;
   font-weight: bold;
+  color: #707070 !important;
   font-size: 2.5vh;
+  z-index: 11
+}
+
+@media only screen and (max-width: 600px) {
+  .sendBlog{
+    top: 2.5%;
+    right: -23%;
+    font-size: 2vh
+  }
 }
 
 .sendProj{
   display: inline-block;
-  position: absolute;
-  top: 3%;
-  right: 7.5%;
+  position: fixed;
+  top: 2.7%;
+  right: 27.5%;
   text-decoration: none;
   font-weight: bold;
   font-size: 2.5vh;
+  color: #707070 !important;
+  z-index: 11
+}
+
+@media only screen and (max-width: 600px) {
+  .sendProj{
+    top: 4.5%;
+    right: 13%;
+    font-size: 2vh
+  }
+}
+
+.sendStatus{
+  display: inline-block;
+  position: fixed;
+  top: 2.7%;
+  right: 35%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2.5vh;
+  color: #707070 !important;
+  z-index: 11
+}
+
+@media only screen and (max-width: 600px) {
+  .sendStatus{
+    top: 4.5%;
+    left: -23%;
+    font-size: 2vh
+  }
 }
 
 .sendAbout{
   display: inline-block;
-  position: absolute;
-  top: 3%;
-  right: 15%;
+  position: fixed;
+  top: 2.7%;
+  left: 31.5%;
   text-decoration: none;
+  color: #707070 !important;
   font-weight: bold;
   font-size: 2.5vh;
+  z-index: 11;
+}
+
+@media only screen and (max-width: 600px) {
+  .sendAbout{
+    top: 2%;
+    left: 12.5%;
+    font-size: 2vh
+  }
 }
 
 a:link{
@@ -192,10 +440,10 @@ a:visited{
 }
 
 a:hover{
-  color: #979797;
+  opacity: 0.4;
+  transition: 0.3s;
 }
 
 a:active{
   color: #686868;
 }
-
