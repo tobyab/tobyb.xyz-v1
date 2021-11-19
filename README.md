@@ -1,6 +1,6 @@
 
 <h1>
-  personal-website
+  tobyb.xyz
   </h1>
 
 Hello there, this is the code from my personal website.
@@ -14,4 +14,4 @@ Also! I will try to keep you all as updated as possible in the Issues tab. In fa
 
 visit the site <a href="https://tobyb.xyz">here!</a> :)
 
-![Screenshot 2021-08-20 at 11 49 59](https://user-images.githubusercontent.com/77097223/130222627-144fd6d5-ca7c-4e10-9817-193f1cc7bc83.png)
+![Screenshot 2021-11-19 at 07 23 24](https://user-images.githubusercontent.com/77097223/142582021-21085d65-93fe-41d7-9452-51f598b9f0c7.png)
