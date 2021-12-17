@@ -3,8 +3,8 @@
   tobyb.xyz
   </h1>
 
-Hello there, this is the code from my personal website.
-It was built with html and css and I hope it help you build yours!
+This is the code from my personal website.
+It was built with html and css and I hope it helps you build yours!
 
 if you want to make changes you have to make a PR. Please keep in mind, all changes made to this repo DO NOT get uploaded to the main site. I will have to do a full review of them, then the code will be added to the private repo.
 
