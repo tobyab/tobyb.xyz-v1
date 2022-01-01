@@ -14,4 +14,6 @@ Also! I will try to keep you all as updated as possible in the Issues tab. In fa
 
 visit the site <a href="https://tobyb.xyz">here!</a> :)
 
+<a href="https://github.com/ItsTobez/tobyb.xyz-v2">Click here to view the v2 of this website!</a>
+
 ![Screenshot 2021-11-19 at 07 23 24](https://user-images.githubusercontent.com/77097223/142582021-21085d65-93fe-41d7-9452-51f598b9f0c7.png)
