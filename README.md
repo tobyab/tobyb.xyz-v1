@@ -1,7 +1,9 @@
 
 <h1>
-  tobyb.xyz
+tobyb.xyz v1
   </h1>
+  
+ <b>Check out v2 of my personal website <a href="https://github.com/ItsTobez/tobyb.xyz-v2/">here</a>!  </b>
 
 This is the code from my personal website.
 It was built with html and css and I hope it helps you build yours!
